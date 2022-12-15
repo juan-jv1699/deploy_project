@@ -1,0 +1,80 @@
+.cardshow {
+    min-width: 300px;
+    height: 460px;
+    background: #212529;
+    border-radius: 15px;
+    box-shadow: 1px 5px 60px 0px #00ff886b;
+    
+   
+    
+   }
+   
+   .cardshow .cardshow-border-top {
+    width: 70%;
+    height: 3%;
+    background: #8FD9A9;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+    
+   }
+   
+   .cardshow span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 25px;
+   }
+   
+   .cardshow .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 15px;
+   }
+   
+   .cardshow .img {
+    width: 70px;
+    height: 80px;
+    background: rgb(100, 161, 121);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+   }
+   
+   .cardshow button {
+    text-decoration: none;
+    padding: 9px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: #8FD9A9;
+    color: white;
+    font-weight: 600;
+   }
+   
+   .cardshow button:hover {
+    background: #4d7c5e;
+   }
+   .select{
+    background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+   }
+   .contentCardShow{
+    
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   

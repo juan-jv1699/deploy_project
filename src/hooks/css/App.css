@@ -1,0 +1,59 @@
+/* body{
+    overflow: hidden;
+} */
+.fade-enter{
+    opacity: 0;
+    bottom: 0;
+}
+.fade-enter.fade-enter-active{
+    opacity: 2;
+    
+    transition:opacity 1.5s ease-in-out;
+}
+
+/* Animation Botton Like */
+
+  
+  
+  
+  @keyframes take-off-favorite {
+    0% {
+          transform: scale(1);
+      }
+    20% {
+          transform: scale(0.9);
+      }
+      40% {
+          transform: scale(1.1);
+      }
+      100% {
+          transform: scale(1);
+      }
+  }
+  
+  #favorite-stroke {
+      animation: 300ms add-favorite forwards;
+      
+  }
+  
+  #favorite-filled {
+    animation: 300ms take-off-favorite forwards ease-in-out;
+  }
+  
+  @keyframes add-favorite {
+    0% {
+          transform: scale(1);
+      }
+      20% {
+          transform: scale(0.9);
+          fill: white;
+      }
+      40% {
+          transform: scale(1.1);
+      fill: white;
+      }
+      100% {
+          transform: scale(1);
+          fill: red;
+      }
+  }

@@ -1,0 +1,68 @@
+export const ProductsData = [
+  {
+    id: 1,
+    price: 10,
+    amount: 0,
+    name: "Viñedos",
+    comment:'Products details lorem',
+    img: "https://descubreenmexico.com/wp-content/uploads/2022/04/ros1.jpg",
+  },
+  {
+    id: 2,
+    price: 15,
+    amount: 0,
+    name: "Cafe",
+    comment:'Products details lorem',
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/1200px-Roasted_coffee_beans.jpg",
+  },
+  {
+    id: 3,
+    price: 20,
+    amount: 0,
+    name: "Vacas",
+    comment:'Products details lorem',
+    img: "https://igualdadanimal.mx/app/uploads/2020/07/blog-vacas-maltrato-animal-crueldad-2-mx-1500x0-c-default.jpg",
+  },
+  {
+    id: 4,
+    price: 29,
+    amount: 0,
+    name: "Cerdos",
+    comment:'Products details lorem',
+    img: "https://cdn.pixabay.com/photo/2018/05/09/22/44/piglet-3386356__480.jpg",
+  },
+  {
+    id: 5,
+    price: 10,
+    amount: 0,
+    name: "Vegetales",
+    comment:'Products details lorem',
+    img: "https://conceptodefinicion.de/wp-content/uploads/2017/08/Vegetales2.jpg",
+  },
+  {
+    id: 6,
+    price: 14,
+    amount: 0,
+    name: "Frutas",
+    comment:'Products details lorem',
+    img: "https://libbys.es/wordpress/wp-content/uploads/2014/12/multifrutas.jpg",
+  },
+  {
+    id: 7,
+    price: 8,
+    amount: 0,
+    name: "flores",
+    comment:'Products details lorem',
+    img: "http://c.files.bbci.co.uk/9110/production/_99563173_gettyimages-479233691.jpg",
+  },
+  {
+    id: 8,
+    price: 5,
+    amount: 0,
+    name: "Huevos",
+    comment:'Products details lorem',
+    img: "https://cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/CZAHXYG5TRJPLBDYQN5GDTLQIM.jpg",
+  },
+
+  
+];
